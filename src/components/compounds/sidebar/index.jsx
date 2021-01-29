@@ -1,5 +1,4 @@
 import React from 'react';
-import { BsSearch } from 'react-icons/all';
 import './sidebar.style.css';
 import { AiOutlineLeftCircle } from 'react-icons/all';
 

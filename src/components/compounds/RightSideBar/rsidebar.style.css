@@ -1,16 +1,16 @@
 .rsidebar {
-    width: 3%;
-    height: 100vh;
-    text-align: center;
-    font-size: 30px;
-    position: fixed;
-    right: 0;
+  width: 3%;
+  height: 100vh;
+  text-align: center;
+  font-size: 30px;
+  position: fixed;
+  right: 0;
 }
 .rsidebar_rc {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /*# sourceMappingURL=rsidebar.style.css.map */
