@@ -1,24 +1,21 @@
 import React from 'react';
 import './card.style.css';
-import { FaUserCircle } from 'react-icons/all';
-import { AiOutlineMail } from 'react-icons/all';
-import { AiOutlineCreditCard } from 'react-icons/all';
+import { AiOutlineCreditCard, AiOutlineMail, FaUserCircle } from 'react-icons/all';
 
-import { Button, Typography } from 'antd';
+import { Typography } from 'antd';
 
 const { Text, Title } = Typography;
 
 const PatientCard = ({
-    id,
-    creditcardtype,
-    firstName,
-    lastName,
-    paymentMethod,
-    gender,
-    email,
-    userName,
-    phonenumber,
-}) => {
+
+                         creditcardtype,
+                         firstName,
+                         lastName,
+                         gender,
+                         email,
+                         userName,
+                         phonenumber,
+                     }) => {
     return (
         <div className={'card'}>
             {/*<Title level={4}>NAME</Title>*/}
