@@ -1,0 +1,20 @@
+.card {
+    width: 250px;
+    box-shadow: 1px 1px 1px 2px black;
+    border-radius: 3px;
+    margin: 5px;
+    font-family: 'Yusei Magic', sans-serif;
+}
+.card_name {
+    color: white;
+    font-family: 'Potta One', cursive;
+}
+.card_content {
+    padding: 5px;
+    margin: 10px;
+    background-color: #ffffcc;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*# sourceMappingURL=card.style.css.map */

@@ -1,0 +1,21 @@
+.header {
+    width: 100%;
+    display: grid;
+    gap: 10px;
+    //justify-content: space-around;
+    //background-color: #e2a6a6;
+
+    &__filter-by {
+        display: flex;
+        .ant-select {
+            min-width: 100px;
+            &:first-child {
+                margin-right: 5px;
+            }
+        }
+    }
+
+    &_search-icon {
+        font-size: 30px;
+    }
+}

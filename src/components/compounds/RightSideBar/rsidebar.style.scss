@@ -1,0 +1,24 @@
+.rsidebar {
+    width: 3%;
+    height: 100vh;
+    //background: #de8787;
+    //outline:1px solid black;
+    text-align: center;
+    font-size: 30px;
+    position: fixed;
+    right: 0;
+    &_rc {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    //&_fav{
+    //  font-size: 40px;
+    //  text-transform: uppercase;
+    //  transform: rotate(-90deg)
+    //  skew(-5deg);
+    //  background-color: #ffc;
+    //}
+}

@@ -1,0 +1,16 @@
+.sidebar {
+    width: 3%;
+    height: 100vh;
+    //background: #cf3232;
+    //outline:1px solid black;
+    text-align: center;
+    font-size: 30px;
+    position: fixed;
+
+    &_lc {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}

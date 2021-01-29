@@ -1,0 +1,19 @@
+.header {
+    width: 100%;
+    display: grid;
+    gap: 10px;
+}
+.header__filter-by {
+    display: flex;
+}
+.header__filter-by .ant-select {
+    min-width: 100px;
+}
+.header__filter-by .ant-select:first-child {
+    margin-right: 5px;
+}
+.header_search-icon {
+    font-size: 30px;
+}
+
+/*# sourceMappingURL=navbar.style.css.map */
